@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="busra, busraozata, portfolyo" />
+    <meta name="description" content="Büşra Özata, Kişisel Web Sitesi" />
+    <link rel="shortcut icon" type="image/png" href="./img/icon.png"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Büşra Özata</title>
+</head>
+<body  class="js">
+    <!-- Preloader -->
+    <div id="preloader"></div>
+    <!-- Back to top button -->
+    <a id="button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <header>
+       <div class="container">
+        <div class="nav">
+            <a href="index.html" class="logo"><img src="./img/busraozatalogowhite.png" style="max-width: 180px; object-fit: contain;"  alt=""></a>
+            <div class="toggle" onclick=" toggleMenu();"></div>
+            <ul class="menu" >
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#work">Yaptığım İşler</a></li>
+                <li><a href="#comment">Yorumlar</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </div>
+       </div>
+    </header>
+    <section class="hero"> 
+        <div class="container" style="z-index: 99;">
+            <div class="welcome">
+              <div class="picture d-lg-none d-block">
+                <img src="./img/busraozata.jpeg" style="object-fit: contain;" title="Büşra Özata" class="img-fluid" alt="busraozata">
+              </div>
+                <div class="content">
+                    <h2>
+                        Merhaba, benim adım
+                    </h2>
+                    <h1 class="name">
+                        Büşra Özata
+                    </h1>
+                    <h2>
+                        Front - End Developer
+                    </h2>
+                    <div class="download">
+                        <a target="_blank" href="./download/busraozatacv.pdf" download>
+                            CV İNDİR
+                        </a>
+                    </div>
+                    <div class="social-media" >
+                        <a target="_blank" href="https://www.linkedin.com/in/b%C3%BC%C5%9Fra-%C3%B6zata-158ab7192/" class="icon" style="--i:11;"><i class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" href=""class="icon" style="--i:12;"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href=""class="icon" style="--i:13;"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="picture d-lg-block d-none" >
+                    <img src="./img/busraozata.jpeg" style="object-fit: contain;" title="Büşra Özata" class="img-fluid" alt="busraozata">
+                </div>
+                
+            </div>
+            <div class="scroll-down">
+                <div class="scroll-down-text">AŞAĞI KAYDIR</div>
+                <div class="scroll-down-bar"></div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about"> 
+        <div class="container" style="z-index: 9999;">
+            <div class="title-content">
+                <div class="title text-center mb-5">
+                    <h3>Hakkımda</h3>
+                </div>
+                <div class="content">
+                   <div class="row">
+                     <div class="col-lg-6">
+                       <img src="./img/aboutimg.jpg" class="img-fluid"  alt="about">
+                     </div>
+                     <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column" >
+                       <div class="text">
+                        <p>
+                          Sürekli kendini geliştirmek isteyen, yeni hedefler edinen, başarılı olduğunda mutlu olan biriyim.
+                      </p>
+                      <p>
+                          Mesleğime okul öncesi, devamında ve sonrasında gerek freelance işler gerekse kendi çabalarımla kodlamış olduğum projelerle birlikte HTML5,
+                          CSS3 bilgimi geliştirerek başladım. Gelişim süresi boyunca bir çok örnek proje ve yayına alınan proje geliştirdim. Geliştirmiş olduğum tüm projeleri
+                          responsive uyumlu olarak kodladım. Projelerde bootstrap 4 ve üzeri sürümlerini kullandım.
+                      </p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+                <div class="skills-content">
+                  <div class="title text-center">
+                    <h3>Yetenekler</h3>
+                  </div>
+                  <div class="skills">
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-html5"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>HTML</h6>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-css3-alt"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>CSS</h6>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-sass"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>SCSS</h6>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-js"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>JAVASCRIPT</h6>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-php"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>PHP</h6>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fab fa-laravel"></i>
+                          </div>
+                          <div class="flip-card-back">
+                            <h6>LARAVEL</h6>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="work">
+      <div class="container">
+        <div class="title text-center">
+          <h3>Yaptığım İşler</h3>
+        </div>
+        <div class="carousel-wrap">
+          <div class="owl-carousel">
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://mtstaj.co/metroexperience/" >
+                  <div class="imgbx metro text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://mtstaj.co/jtiturkiyeyazstaji/" >
+                  <div class="imgbx jti text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://gelisimonderleri.com/" >
+                  <div class="imgbx gelisimonderleri text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook" >
+                <a target="_blank" href="https://mtstaj.co/goreinforcers/" >
+                  <div class="imgbx goreinforcers text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://mtstaj.co/beiersdorf2active/" >
+                  <div class="imgbx beiersdorf text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="item" >
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://3ik.org/ooc/" >
+                  <div class="imgbx ooc text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content" >
+                  <img src="./img/macbook.png" alt="macbook">
+                  <a target="_blank" href="https://careerplus.org/bankacilikkampi2021/">
+                    <div class="imgbx bankacilik text-center">
+                      <div class="overlay">
+                        <div class="scroll">
+                            <div class="icon">
+                                <div class="dots">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="scroll-down">
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                            <div class="scroll-down-txt">
+                                <span>AŞAĞI <br> KAYDIR </span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content" >
+                <img src="./img/macbook.png" alt="macbook">
+                <a target="_blank" href="https://mtstaj.co/QNBEYOND_Unidea_Basvuru/" >
+                  <div class="imgbx qnbeyond text-center">
+                    <div class="overlay">
+                      <div class="scroll">
+                          <div class="icon">
+                              <div class="dots">
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                                  <i class="fas fa-circle"></i>
+                              </div>
+                              <div class="scroll-down">
+                                  <i class="fas fa-arrow-down"></i>
+                              </div>
+                          </div>
+                          <div class="scroll-down-txt">
+                              <span>AŞAĞI <br> KAYDIR </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comment"  id="comment">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h3>Yorumlar</h3>
+        </div>
+        <div class="comment-form" id="list_section">
+          
+          <form id="newItemForm">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Adınız Soyadınız" name="name" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="title" class="form-control" placeholder="Ünvan" name="title" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="msg" rows="3" placeholder="Mesaj" name="msg" required></textarea>
+            </div>
+            <button type="submit" id="add" class="btn ">Gönder</button>
+          </form>
+        </div>
+        <div class="comment-info mt-5">
+          <div class="box" >
+            <div class="img">
+              <img src="./img/user.png" alt="user" class="img-fluid">
+            </div>
+            <div class="close">
+              <i class="far fa-times"></i>
+            </div>
+            <div class="header">
+              <h3>Büşra Özata</h3>
+            </div>
+            <div class="title">
+              <h6>Front - End Developer </h6>
+            </div>
+            <div class="explanation">
+              <p>
+                 Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h3>İletişim</h3>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <div class="box" >
+                <h3>Adres</h3>
+                <span>Küçükçekmece/İstanbul</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="box" >
+                <h3>Telefon</h3>
+                <a href="tel:0554-749-3125">0554-749-3125</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="box" >
+                <h3>E-Mail</h3>
+                <a href="mailto:busraozata1998@gmail.com">busraozata1998@gmail.com</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="box">
+                <h3>Mesaj</h3>
+                <a href="https://api.whatsapp.com/send?phone=905547493125&text=Merhaba%20" target=”_blank”>
+                  Whatsapp Mesaj Gönder
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-social mt-5">
+          <div class="row">
+            <div class="col-md-12">
+             <div class="form-apply">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" placeholder="Ad - Soyad" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="email" placeholder="E - Mail" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="phone" placeholder="Telefon" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" placeholder="Konu" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" rows="5" name="msj" placeholder="Mesaj" required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12 ">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Gönder</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+             </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+      
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2021 Büşra Özata. Tüm hakları Saklıdır.</div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/main.js"></script>
+   
+ 
+    <script>
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var menuToggle=document.querySelector('.toggle');
+            var menu =document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+    
+
+    <script type="text/javascript">
+        var title = document.title;
+        var alttitle = "Yine bekleriz...";
+        window.onblur = function () { document.title = alttitle; };
+        window.onfocus = function () { document.title = title; };
+    </script>
+    
+    
+</body>
+</html>
